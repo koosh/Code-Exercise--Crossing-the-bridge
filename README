@@ -1,0 +1,21 @@
+Code exercise: Crossing the Bridge
+------------------------------------
+Found at https://twitter.com/honeypotio/status/669969447331983360
+
+N people come to a river at night. There is a narrow bridge,
+but it can only hold two people at a time. They have one torch
+and, because it's night, the torch has to be used when crossing
+the bridge. Each person takes a variable amount of time to
+cross.
+
+When two people cross the bridge together, they must move at
+the slower person's pace.
+
+How fast can you get N people across the bridge.
+------------------------------------
+The algorithm implemented here has the fastest person cross
+with the slowest, then go back and take the next slowest etc
+but adds a variable bridge width so it more than two persons
+can cross.
+
+Sample usage in main.php.
