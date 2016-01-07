@@ -3,8 +3,10 @@
 include ('person.php');
 include ('bridge.php');
 
-$people = Person::getRandom(3);
+// Get random persons, with random speeds.
+$people = Person::getRandom(10);
 
-$bridge = new Bridge(1, 3);
+// Create a bridge with length 1 and width 2.
+$bridge = new Bridge(1, 2);
 
 echo $bridge->getTimeToPass($people) . PHP_EOL;
